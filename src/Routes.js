@@ -18,7 +18,7 @@ const Routes = () => {
 
     return (
 
-        <BrowserRouter>
+        <BrowserRouter basename={'/reactgithubpage'}>
 
             <Switch>
 

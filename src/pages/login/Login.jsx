@@ -12,7 +12,7 @@ const Login = () => {
     // เช็คว่าถ้าล็อกอินแล้วให้ส่งไปหน้า Dashboard
     if(localStorage.getItem('fullname') != null){
         // ส่งไปหน้า Backend / Dashboard
-        window.location = '/backend/dashboard'
+        window.location = '/reactgithubpage/backend/dashboard'
     }
 
     // ฟังก์ชันการ Submit Form
@@ -50,7 +50,7 @@ const Login = () => {
                     localStorage.setItem('fullname','สามิตร โกยม')
 
                     // ส่งไปหน้า Backend / Dashboard
-                    window.location = '/backend/dashboard'
+                    window.location = '/reactgithubpage/backend/dashboard'
                 }
             })
 
