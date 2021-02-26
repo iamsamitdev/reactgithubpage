@@ -139,7 +139,7 @@ const Navbar = () => {
                   <div className="row g-0 align-items-center">
                     <div className="col-2">
                       <img
-                        src="../assets/img/avatars/avatar-5.jpg"
+                        src="assets/img/avatars/avatar-5.jpg"
                         className="avatar img-fluid rounded-circle"
                         alt="Vanessa Tucker"
                       />
@@ -157,7 +157,7 @@ const Navbar = () => {
                   <div className="row g-0 align-items-center">
                     <div className="col-2">
                       <img
-                        src="../assets/img/avatars/avatar-2.jpg"
+                        src="assets/img/avatars/avatar-2.jpg"
                         className="avatar img-fluid rounded-circle"
                         alt="William Harris"
                       />
@@ -175,7 +175,7 @@ const Navbar = () => {
                   <div className="row g-0 align-items-center">
                     <div className="col-2">
                       <img
-                        src="../assets/img/avatars/avatar-4.jpg"
+                        src="assets/img/avatars/avatar-4.jpg"
                         className="avatar img-fluid rounded-circle"
                         alt="Christina Mason"
                       />
@@ -193,7 +193,7 @@ const Navbar = () => {
                   <div className="row g-0 align-items-center">
                     <div className="col-2">
                       <img
-                        src="../assets/img/avatars/avatar-3.jpg"
+                        src="assets/img/avatars/avatar-3.jpg"
                         className="avatar img-fluid rounded-circle"
                         alt="Sharon Lessman"
                       />
@@ -230,7 +230,7 @@ const Navbar = () => {
               data-toggle="dropdown"
             >
               <img
-                src="../assets/img/avatars/avatar.jpg"
+                src="assets/img/avatars/avatar.jpg"
                 className="avatar img-fluid rounded mr-1"
                 alt={fullname}
               />{" "}

@@ -6,9 +6,9 @@ const Sidebar = () => {
   return (
     <nav id="sidebar" className="sidebar">
       <div className="sidebar-content js-simplebar">
-        <a className="sidebar-brand" href="#">
+        <NavLink className="sidebar-brand" to="/backend/dashboard">
           <span className="align-middle">Smart Stock</span>
-        </a>
+        </NavLink>
         <ul className="sidebar-nav">
           <li className="sidebar-header">Pages</li>
           <li className="sidebar-item">
